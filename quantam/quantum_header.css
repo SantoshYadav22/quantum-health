@@ -1,0 +1,35 @@
+.header{
+    width: 25%;
+    padding-top: 15px;
+    background-color: black;
+    color: white;
+   
+}
+#contents{
+    border-radius: 12px;
+    border: 2px solid black;
+}
+.disclaimer{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      font-size:xx-small;
+    }
+    .disclaimer{
+        color: white;
+        font-size: small;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+.btn{
+    font-size: small;
+    display:flex;
+    justify-items: self-start;
+}
+  }
+
+
+ 
